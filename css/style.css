@@ -146,6 +146,7 @@ body {
     font-size: 1.5rem;
     font-family: var(--secondary-font);
     line-height: 1.5;
+    
 }
 
 .product-descr {
@@ -494,4 +495,7 @@ body {
 }
 .legal-lnk {
     color: #fff;
+}
+.text-hidden {
+    display: none;
 }
