@@ -369,6 +369,13 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
+.similarLst {
+    display: flex;
+    overflow-x: scroll;
+    padding: 3rem 0;
+    /* scroll-snap-type: x mandatory; */
+    overflow: hidden;
+}
 
 .similar-lnk {
     position: relative;
@@ -384,9 +391,6 @@ body {
     transition: background var(--transition-duration) var(--transition-function);
 }
 
-.similar-img {
-    /* width: 100%; */
-}
 
 .similar-picture {
     width: 100%;
@@ -562,23 +566,16 @@ body {
 
 @media screen and (max-width: 769px) {
 
-    .similar-carousel {
-        overflow-x: hidden;
-        white-space: nowrap;
-    }
-
-    .similar-lst {
+    .similarLst {
         display: flex;
         overflow-x: scroll;
         padding: 3rem 0;
-        scroll-snap-type: x mandatory;
+        /* scroll-snap-type: x mandatory; */
+        overflow: hidden;
     }
     .similar-itm {
         flex: 1 0 250px;
         margin-left: 1rem;
         scroll-snap-align: start;
     }
-
-    
-
 }
