@@ -27,10 +27,10 @@
         <h1 class="page-ttl">Canard jaune pour la revue de code</h1>
         <section class="page-pics">
             <div class="pictures">
-                <button type="button" class="pictures-handler pictures-prev">◀️</button>
+                <button id="left" type="button" class="pictures-handler pictures-prev">◀️</button>
                 <img class="pictures-img" src="img/canard-jaune-1-l.png" alt="canard jaune pour dévloppeur">
-                <button type="button" class="pictures-handler pictures-next">▶️</button>
-                <ul class="thumbs">
+                <button id="right" type="button" class="pictures-handler pictures-next">▶️</button>
+                <div class="thumbs" id="imgs">
                     <li class="thumbs-itm">
                         <img class="thumbs-img" src="img/canard-jaune-1-s.png" alt="canard">
                     </li>
@@ -46,7 +46,7 @@
                     <li class="thumbs-itm">
                         <img class="thumbs-img" src="img/canard-jaune-5-s.png" alt="canard">
                     </li>
-                </ul>
+                </div>
             </div>
             <div class="price">
                 11€95
@@ -150,5 +150,6 @@
         </nav>
         <div class="footer-cp">© 2024 - Dev Gadgets</div>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
