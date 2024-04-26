@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Dev Gadgets - Canard jaune pour la revue de code</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header class="header">
         <div class="header-content">
@@ -57,7 +59,10 @@
             </div>
         </section>
         <section class="page-txt page-section">
-            <p class="product-descr">Ce canard va devenir votre meilleur allié pour le développement de vos projets les plus ambitieux ! Fidèle compagnon qui trônera à côté de vos écrans, vous pourrez lui expliquer les problèmes que vous rencontrez avec votre code : refactoring, bugs, algo complexe, … Ce nouveau collègue discret et joyeux vous aidera à trouver les solutions à toutes vos problématiques !</p>
+            <p class="product-descr">Ce canard va devenir votre meilleur allié pour le développement de vos projets les
+                plus ambitieux ! Fidèle compagnon qui trônera à côté de vos écrans, vous pourrez lui expliquer les
+                problèmes que vous rencontrez avec votre code : refactoring, bugs, algo complexe, … Ce nouveau collègue
+                discret et joyeux vous aidera à trouver les solutions à toutes vos problématiques !</p>
             <div>
                 <h2 class="product-subttl product-acrd-lnk" id="product-subttl">Avantages</h2>
                 <ul class="product-advantages" id="text1">
@@ -70,7 +75,7 @@
             </div>
             <div>
                 <h2 class="product-subttl product-acrd-lnk" id="product-subttl-sd">Caractéristiques</h2>
-                <dl class="product-car"id="text2">
+                <dl class="product-car" id="text2">
                     <dt>Dimensions</dt>
                     <dd>10 cm x 9 cm x 12 cm</dd>
                     <dt>Matière</dt>
@@ -85,8 +90,12 @@
             </div>
         </section>
         <section class="similar page-section">
-            <h2 class="product-subttl">Articles similaires</h2>
-            <ul class="similar-lst">
+            <div class="similar__align">
+                <button id="picturesLeft" type="button" class="btn-carousel pictures-left">◀️</button>
+                <h2 class="product-subttl">Articles similaires</h2>
+                <button id="picturesRigth" type="button" class="btn-carousel pictures-rigth">▶️</button>
+            </div>
+            <ul id="similarLst" class="similar-lst">
                 <li class="similar-itm">
                     <a class="similar-lnk" href="#">
                         <img class="similar-img" src="img/canard-dragon.png" alt="canard dragon">
@@ -152,4 +161,5 @@
     </footer>
     <script src="js/script.js"></script>
 </body>
+
 </html>
